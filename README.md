@@ -15,8 +15,9 @@ https://github.com/shaonianzhentan/conversation
 
 - [ ] 增加录音发送到云音乐播放功能
 - [ ] 支持多实例切换功能
+- [ ] 检查是否安装配置语音小助手组件
 
-- [ ] 支持自动搜索HomeAssistant实例
+- [x] 支持自动搜索HomeAssistant实例
 - 修复长时间不操作，授权失效的问题
 - 完善关于应用信息
 - 增加语音识别时，正在聆听的提示
