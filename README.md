@@ -13,6 +13,11 @@
 在 Home Assistant 中安装启用 `conversation`
 https://github.com/shaonianzhentan/conversation
 
+## 应用截图
+
+![3]](./screenshot/3.png)
+
+
 
 ## 更新日志
 
