@@ -2,8 +2,11 @@
 
 家庭助理 Windows应用
 
-应用地址： https://www.microsoft.com/zh-cn/p/%E5%AE%B6%E5%BA%AD%E5%8A%A9%E7%90%86/9n2jp5z9rxx2
+[![ha_badge](https://img.shields.io/badge/Home-Assistant-%23049cdb)](https://www.home-assistant.io/)
+![visit](https://visitor-badge.glitch.me/badge?page_id=shaonianzhentan.ha-windows&left_text=visit)
 
+
+[![ha_badge](https://img.shields.io/badge/Windows-家庭助理-blue?logo=windows&style=for-the-badge)](https://www.microsoft.com/zh-cn/store/productId/9n2jp5z9rxx2)
 
 ## 使用方式
 
