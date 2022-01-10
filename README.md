@@ -15,9 +15,9 @@ https://github.com/shaonianzhentan/conversation
 
 ## 应用截图
 
-![3]](./screenshot/3.png)
-
-
+![screenshot](./screenshot/1.png)
+![screenshot](./screenshot/2.png)
+![screenshot](./screenshot/3.png)
 
 ## 更新日志
 
