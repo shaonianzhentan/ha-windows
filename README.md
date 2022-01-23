@@ -17,6 +17,7 @@ https://github.com/shaonianzhentan/conversation
 ![screenshot](./screenshot/1.png)
 ![screenshot](./screenshot/2.png)
 ![screenshot](./screenshot/3.png)
+![screenshot](./screenshot/4.png)
 
 ## 更新日志
 
@@ -29,13 +30,19 @@ https://github.com/shaonianzhentan/conversation
 - [ ] 磁贴动态显示通知数量
 - [ ] 语音唤醒
 
-- [ ] 支持switch、input_boolean的开关
-- [ ] 支持light的开关
+- [x] 支持switch、input_boolean的开关
+- [x] 支持light的开关
 - [ ] 支持fan的开关
 - [ ] 支持climate的开关
 - [ ] 支持media_player的开关、播放、暂停、下一曲、上一曲
 - [ ] 支持automation的开关、触发
 - [ ] 支持script的执行
+
+### 1.0.6
+- 新增最近使用设备页面
+- 优化语音识别逻辑
+- 支持部分设备的开关
+- 调整初始窗口大小
 
 ### 1.0.3
 
