@@ -12,6 +12,10 @@
 在 Home Assistant 中安装启用 `conversation`
 https://github.com/shaonianzhentan/conversation
 
+## 众筹开发
+
+由于是个人独立开发，时间精力有限，如果你对这个Windows应用有兴趣，可以联系我付费获取本应用免费兑换码，并加入QQ群`64185969`和大家一起决定这个应用的功能发展
+
 ## 应用截图
 
 ![screenshot](./screenshot/1.png)
@@ -34,9 +38,14 @@ https://github.com/shaonianzhentan/conversation
 - [x] 支持light的开关
 - [ ] 支持fan的开关
 - [ ] 支持climate的开关
-- [ ] 支持media_player的开关、播放、暂停、下一曲、上一曲
 - [ ] 支持automation的开关、触发
 - [ ] 支持script的执行
+
+
+- 登录新增返回按钮
+- 语音助手页面增加设备面板
+- 初始界面默认新增localhost实例
+- 设备面板支持media_player的控制
 
 ### 1.0.6
 - 新增最近使用设备页面
