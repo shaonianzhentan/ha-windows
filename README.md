@@ -42,10 +42,13 @@ https://github.com/shaonianzhentan/conversation
 - [ ] 支持script的执行
 
 
-- 登录新增返回按钮
-- 语音助手页面增加设备面板
-- 初始界面默认新增localhost实例
+- 新增登录返回按钮
+- 新增区域显示
+- 新增初始界面默认localhost实例
+- 新增语音助手消息设备面板
 - 设备面板支持media_player的控制
+- 优化实体图标
+- 优化设备图标
 
 ### 1.0.6
 - 新增最近使用设备页面
