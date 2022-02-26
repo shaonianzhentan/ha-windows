@@ -22,6 +22,7 @@ https://github.com/shaonianzhentan/conversation
 ![screenshot](./screenshot/2.png)
 ![screenshot](./screenshot/3.png)
 ![screenshot](./screenshot/4.png)
+![screenshot](./screenshot/5.png)
 
 ## 更新日志
 
@@ -42,7 +43,11 @@ https://github.com/shaonianzhentan/conversation
 - [ ] 支持script的执行
 
 
-- 新增登录返回按钮
+### 1.0.7
+- 调整主界面
+- 支持设备注册，电量传感器
+- 支持WebSocket在线通知
+- 登录界面支持返回与刷新
 - 新增区域显示
 - 新增初始界面默认localhost实例
 - 新增语音助手消息设备面板
