@@ -10,11 +10,14 @@
 ## 使用方式
 
 在 Home Assistant 中安装启用 `conversation`
-https://github.com/shaonianzhentan/conversation
 
-## 众筹开发
+> 语音小助手
 
-由于是个人独立开发，时间精力有限，如果你对这个Windows应用有兴趣，可以联系我付费获取本应用免费兑换码，并加入QQ群`64185969`和大家一起决定这个应用的功能发展
+https://gitee.com/shaonianzhentan/conversation
+
+> 云音乐
+
+https://gitee.com/shaonianzhentan/ha_cloud_music
 
 ## 应用截图
 
@@ -23,6 +26,8 @@ https://github.com/shaonianzhentan/conversation
 ![screenshot](./screenshot/3.png)
 ![screenshot](./screenshot/4.png)
 ![screenshot](./screenshot/5.png)
+![screenshot](./screenshot/6.png)
+![screenshot](./screenshot/7.png)
 
 ## 更新日志
 
@@ -42,6 +47,15 @@ https://github.com/shaonianzhentan/conversation
 - [ ] 支持automation的开关、触发
 - [ ] 支持script的执行
 
+### 1.0.8
+- 最小化时保持连接
+- 支持磁贴文字控制
+- 支持命令控制
+- 修复注册设备实体问题
+- 增加设备连接状态传感器
+- 新增云音乐插件联动播放
+- 新增固定任务栏功能
+- 关于应用中新增服务地址
 
 ### 1.0.7
 - 调整主界面
@@ -81,3 +95,12 @@ https://github.com/shaonianzhentan/conversation
 - 支持语音文本控制设备
 - 支持浏览器打开HomeAssistant
 - 支持退出重新授权登录
+
+
+## 赞助开发
+
+如果你对这个Windows应用有兴趣，可以联系我获取本应用的免费兑换码
+
+赞助费50元，制作不易，还请理解。 
+
+联系方式Q`635147515`
