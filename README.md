@@ -31,12 +31,12 @@ https://gitee.com/shaonianzhentan/ha_cloud_music
 
 ## 更新日志
 
+### To do list
 - [ ] 增加录音发送到云音乐播放功能
 
 - [ ] 支持多实例切换功能
 - [ ] 加入设置页面
 - [ ] 支持禁用/启用音效
-- [ ] 支持消息通知提醒
 - [ ] 磁贴动态显示通知数量
 - [ ] 语音唤醒
 
@@ -104,3 +104,28 @@ https://gitee.com/shaonianzhentan/ha_cloud_music
 赞助费50元，制作不易，还请理解。 
 
 联系方式Q`635147515`
+
+## 事件参数
+
+更新磁贴
+```yaml
+type: tile
+tile:
+  type: update
+  from: from
+  subject: subject
+  body: body
+```
+
+清除磁贴
+```yaml
+type: tile
+tile:
+  type: clear
+```
+
+文本转语音
+```yaml
+type: tts
+data: 这里使用系统的TTS功能
+```
