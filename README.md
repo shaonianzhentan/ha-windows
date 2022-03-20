@@ -129,3 +129,22 @@ tile:
 type: tts
 data: 这里使用系统的TTS功能
 ```
+
+## 开机启动
+
+1. 生成桌面快捷方式
+2. 打开开机启动目录：`shell:startup`
+3. 创建文件：`家庭助理.cmd`
+4. 写入以下内容
+```bat
+::更换终端显示字符
+CHCP 65001
+::为了防止有还没连网的情况发生，所以这里延迟执行
+TIMEOUT /T 5
+::不知道为啥，第一次启动会崩溃，再次启动就正常
+start "" "%USERPROFILE%\desktop\家庭助理.lnk"
+
+::重新启动程序
+TIMEOUT /T 2
+start "" "%USERPROFILE%\desktop\家庭助理.lnk"
+```
