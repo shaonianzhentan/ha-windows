@@ -149,6 +149,6 @@ TIMEOUT /T 5
 start "" "%USERPROFILE%\desktop\家庭助理.lnk"
 
 ::重新启动程序
-TIMEOUT /T 2
+TIMEOUT /T 10
 start "" "%USERPROFILE%\desktop\家庭助理.lnk"
 ```
