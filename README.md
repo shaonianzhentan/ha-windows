@@ -134,14 +134,12 @@ type: tts
 data: 这里使用系统的TTS功能
 ```
 
-## 控制Windows系统
-控制命令（依赖win32程序）
+## 执行命令
+此功能依赖win32程序，否则无法使用
 ```yaml
 type: cmd
 data: 执行命令
 ```
-
-执行命令
 - 使用浏览器打开网址`'start "" "https://gitee.com/shaonianzhentan/ha-windows"'`
 - 打开桌面上的微信`'start "" "%USERPROFILE%\desktop\微信.lnk"'`
 - 60秒后关机`'shutdown -s -f -t 60'`
