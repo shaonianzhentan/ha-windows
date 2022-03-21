@@ -134,6 +134,22 @@ type: tts
 data: 这里使用系统的TTS功能
 ```
 
+## 控制Windows系统
+控制命令（依赖win32程序）
+```yaml
+type: cmd
+data: 执行命令
+```
+
+执行命令
+- 使用浏览器打开网址`'start "" "https://gitee.com/shaonianzhentan/ha-windows"'`
+- 打开桌面上的微信`'start "" "%USERPROFILE%\desktop\微信.lnk"'`
+- 60秒后关机`'shutdown -s -f -t 60'`
+- 60秒后重启电脑`'shutdown -r -f -t 60'`
+- 取消关机命令`'shutdown -a'`
+- 显示桌面`'explorer.exe shell:::{3080F90D-D7AD-11D9-BD98-0000947B0257}'`
+- 更多...
+
 ## 开机启动
 
 1. 生成桌面快捷方式
