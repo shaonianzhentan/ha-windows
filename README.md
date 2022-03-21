@@ -140,7 +140,7 @@ data: 这里使用系统的TTS功能
 type: cmd
 data: 执行命令
 ```
-- 使用浏览器打开网址`'start "" "https://gitee.com/shaonianzhentan/ha-windows"'`
+- 使用浏览器打开网址`'start "" "https://home-assistant.io"'`
 - 打开桌面上的微信`'start "" "%USERPROFILE%\desktop\微信.lnk"'`
 - 60秒后关机`'shutdown -s -f -t 60'`
 - 60秒后重启电脑`'shutdown -r -f -t 60'`
