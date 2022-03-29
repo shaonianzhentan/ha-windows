@@ -155,6 +155,21 @@ data: 执行命令
 - 显示桌面`'explorer.exe shell:::{3080F90D-D7AD-11D9-BD98-0000947B0257}'`
 - 更多...
 
+打开视频
+```yaml
+type: video
+data: 监控视频链接
+```
+
+特定命令
+```yaml
+type: exe
+data: 特定命令
+```
+- 发送全局快捷键`'keyboard shift+win+s'`
+- 设置鼠标位置`'mouse_pos 100,100'`
+- 移动鼠标位置`'mouse_move 100,100'`
+
 ## 开机启动
 
 1. 生成桌面快捷方式
@@ -165,7 +180,7 @@ data: 执行命令
 ::更换终端显示字符
 CHCP 65001
 ::为了防止有还没连网的情况发生，所以这里延迟执行
-TIMEOUT /T 5
+TIMEOUT /T 10
 ::不知道为啥，第一次启动会崩溃，再次启动就正常
 start "" "%USERPROFILE%\desktop\家庭助理.lnk"
 
