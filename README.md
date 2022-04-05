@@ -9,6 +9,7 @@
 
 ## 使用方式
 
+### 依赖插件
 在 Home Assistant 中安装启用 `conversation`
 
 > 语音小助手
@@ -19,6 +20,15 @@ https://gitee.com/shaonianzhentan/conversation
 
 https://gitee.com/shaonianzhentan/ha_cloud_music
 
+### 快捷键
+
+- 语音控制 Voice：`Ctrl+V`
+- 显示设备界面 Device：`Ctrl+D`
+- 显示区域界面 Area：`Ctrl+A`
+- 显示音乐界面 Music：`Ctrl+M`
+- 显示网页界面 Web：`Ctrl+W`
+- 全屏显示：`F11`
+
 ## 应用截图
 
 ![screenshot](./screenshot/1.png)
@@ -28,6 +38,8 @@ https://gitee.com/shaonianzhentan/ha_cloud_music
 ![screenshot](./screenshot/5.png)
 ![screenshot](./screenshot/6.png)
 ![screenshot](./screenshot/7.png)
+![screenshot](./screenshot/8.png)
+![screenshot](./screenshot/9.png)
 
 ## 更新日志
 
@@ -50,6 +62,7 @@ https://gitee.com/shaonianzhentan/ha_cloud_music
 - [ ]新增设置界面
 - [ ]新增自定义网页显示功能
 - [ ]支持音效开关
+- [ ]增加快捷键
 - [ ]支持媒体播放器卡片控制
 
 ### 1.0.15
