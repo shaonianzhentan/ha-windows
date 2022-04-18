@@ -22,12 +22,16 @@ https://gitee.com/shaonianzhentan/ha_cloud_music
 
 ### 快捷键
 
-- 语音控制 Voice：`Ctrl+V`
-- 显示设备界面 Device：`Ctrl+D`
-- 显示区域界面 Area：`Ctrl+A`
-- 显示音乐界面 Music：`Ctrl+M`
-- 显示网页界面 Web：`Ctrl+W`
+- 语音控制 Voice：`Ctrl + V`
+- 显示设备界面 Device：`Ctrl + D`
+- 显示区域界面 Area：`Ctrl + A`
+- 显示音乐界面 Music：`Ctrl + M`
+- 显示网页界面 Web：`Ctrl + W`
 - 全屏显示：`F11`
+- 【云音乐】音量增加：`Ctrl + 上键↑`
+- 【云音乐】音量减少：`Ctrl + 下键↓`
+- 【云音乐】上一曲：`Ctrl + 左键←`
+- 【云音乐】下一曲：`Ctrl + 右键→`
 
 ## 应用截图
 
@@ -45,10 +49,9 @@ https://gitee.com/shaonianzhentan/ha_cloud_music
 
 ### To do list
 - [ ] 增加录音发送到云音乐播放功能
-
 - [ ] 支持多实例切换功能
-- [ ] 加入设置页面
-- [ ] 支持禁用/启用音效
+- [x] 加入设置页面
+- [x] 支持禁用/启用音效
 - [x] 磁贴动态显示通知数量
 - [ ] 语音唤醒
 - [x] 支持switch、input_boolean的开关
@@ -59,11 +62,16 @@ https://gitee.com/shaonianzhentan/ha_cloud_music
 - [x] 支持script的执行
 
 ### dev
-- [x] 新增设置界面
-- [x] 新增自定义网页显示功能
-- [x] 支持音效开关
-- [x] 增加快捷键
 - [ ] 支持媒体播放器卡片控制
+
+### 1.0.17
+- 新增设置界面
+- 新增自定义网页显示功能
+- 支持音效开关
+- 增加快捷键
+- 全局异常时支持重启应用
+- 支持启动时显示网页主界面
+- 支持全屏显示
 
 ### 1.0.15
 - 登录界面自动显示局域网HomeAssistant实例
