@@ -22,16 +22,16 @@ https://gitee.com/shaonianzhentan/ha_cloud_music
 
 ### 快捷键
 
-- 语音控制 Voice：`Ctrl + V`
-- 显示设备界面 Device：`Ctrl + D`
-- 显示区域界面 Area：`Ctrl + A`
-- 显示音乐界面 Music：`Ctrl + M`
-- 显示网页界面 Web：`Ctrl + W`
+- 语音控制 Voice：`Alt` + `V`
+- 显示设备界面 Device：`Alt` + `D`
+- 显示家的界面 Home：`Alt` + `H`
+- 显示音乐界面 Music：`Alt` + `M`
+- 显示网页界面 Web：`Alt` + `W`
 - 全屏显示：`F11`
-- 【云音乐】音量增加：`Ctrl + 上键↑`
-- 【云音乐】音量减少：`Ctrl + 下键↓`
-- 【云音乐】上一曲：`Ctrl + 左键←`
-- 【云音乐】下一曲：`Ctrl + 右键→`
+- 【云音乐】音量增加：`Alt` + `上键↑`
+- 【云音乐】音量减少：`Alt` + `下键↓`
+- 【云音乐】上一曲：`Alt` + `左键←`
+- 【云音乐】下一曲：`Alt` + `右键→`
 
 ## 应用截图
 
