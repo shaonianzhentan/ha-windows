@@ -1,4 +1,4 @@
-# Home Assistant Windows App
+# Home Assistant Windows应用
 
 在Home Assistant中安装使用自定义Conversation组件，通过语音文字命令控制智能设备
 
@@ -8,6 +8,7 @@
 [![windows](https://img.shields.io/badge/Windows-点击安装-blue?logo=windows&style=for-the-badge)](https://www.microsoft.com/zh-cn/store/productId/9n2jp5z9rxx2)
 
 ## 使用方式
+
 
 ### 依赖插件
 在 Home Assistant 中安装启用 `conversation`
@@ -63,6 +64,7 @@ https://gitee.com/shaonianzhentan/ha_cloud_music
 
 ### dev
 - [ ] 支持媒体播放器卡片控制
+- 修复云音乐初始化时崩溃的问题
 
 ### 1.0.17
 - 新增设置界面
