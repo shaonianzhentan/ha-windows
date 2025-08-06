@@ -1,0 +1,12 @@
+# 依赖项文件夹
+node_modules/
+# 构建输出文件夹
+docs/.vitepress/dist/
+# 缓存文件
+docs/.vitepress/cache/
+# 临时文件
+*.timestamp-*.mjs
+# 日志文件
+logs/*.log
+# Vercel部署相关目录
+.vercel/
