@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "家庭助理"
-  text: "轻松使用HomeAssistant的Windows应用"
+  text: "Home Assistant 的 Windows 应用"
   tagline: 专注 Windows 平台，让 Home Assistant 的消息推送变的简单
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 下载安装
+      link: https://www.microsoft.com/zh-cn/store/productId/9n2jp5z9rxx2
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 使用教程
+      link: /guide
 
 features:
-  - title: Feature A
+  - title: 原生界面
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: 消息推送
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 语音控制
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

@@ -5,25 +5,28 @@ export default defineConfig({
   title: "家庭助理",
   description: "Home Assistant Windows Application",
   lang: "zh-CN",
+  base: './',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: 'https://www.home-assistant.io/images/favicon-192x192.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '教程', link: '/guide' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '指南',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '使用教程', link: '/guide' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/shaonianzhentan/ha-windows' }
     ]
-  }
+  },
+  lastUpdated: true,
+  
 })

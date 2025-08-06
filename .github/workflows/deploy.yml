@@ -38,6 +38,9 @@ jobs:
       - name: Build docs
         run: npm run docs:build
 
+      - name: Add CNAME file
+        run: echo "windows.199174.xyz" > docs/.vitepress/dist/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
