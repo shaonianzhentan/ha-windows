@@ -16,10 +16,13 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '指南',
+        text: '使用教程',
         items: [
-          { text: '使用教程', link: '/guide' }
-        ]
+          { text: '应用介绍', link: '/guide' },
+          { text: '消息推送', link: '/notify' },
+          { text: '磁贴显示', link: '/tile' }
+        ],
+        collapsed: true
       }
     ],
 
@@ -28,5 +31,5 @@ export default defineConfig({
     ]
   },
   lastUpdated: true,
-  
+
 })
