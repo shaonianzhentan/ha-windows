@@ -6,17 +6,21 @@ export default defineConfig({
   description: "Home Assistant Windows Application",
   lang: "zh-CN",
   base: './',
+  head: [
+    ['link', { rel: 'icon', href: 'https://www.home-assistant.io/images/favicon-192x192.png' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: 'https://www.home-assistant.io/images/favicon-192x192.png',
+    outlineTitle: '页面导航',
     nav: [
       { text: 'Home', link: '/' },
-      { text: '教程', link: '/guide' }
+      { text: 'Application', link: '/guide' }
     ],
 
     sidebar: [
       {
-        text: '使用教程',
+        text: 'Application',
         items: [
           { text: '应用介绍', link: '/guide' },
           { text: '消息推送', link: '/notify' },
@@ -28,7 +32,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/shaonianzhentan/ha-windows' }
-    ]
+    ],
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    }
   },
   lastUpdated: true,
 

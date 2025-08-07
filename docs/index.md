@@ -11,7 +11,7 @@ hero:
       text: 下载安装
       link: https://www.microsoft.com/zh-cn/store/productId/9n2jp5z9rxx2
     - theme: alt
-      text: 使用教程
+      text: 应用介绍
       link: /guide
 
 features:
