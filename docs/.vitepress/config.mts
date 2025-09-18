@@ -9,6 +9,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: 'https://www.home-assistant.io/images/favicon-192x192.png' }]
   ],
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: 'https://www.home-assistant.io/images/favicon-192x192.png',
