@@ -5,7 +5,6 @@ export default defineConfig({
   title: "家庭助理",
   description: "Home Assistant Windows Application",
   lang: "zh-CN",
-  base: './',
   head: [
     ['link', { rel: 'icon', href: 'https://www.home-assistant.io/images/favicon-192x192.png' }]
   ],
